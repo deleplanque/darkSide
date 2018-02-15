@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SalleComponent } from './salle/salle.component';
 import {AppRoutingModule} from './app-routing.module';
 import { AccueilComponent } from './accueil/accueil.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SalleComponent,
-    AccueilComponent
+    AccueilComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

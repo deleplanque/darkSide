@@ -3,6 +3,12 @@
   src: url(font/28_days_later/28_Days_Later.ttf);
 }
 
+html {
+  background: url("assets/images/background.jpg");
+  background-size: cover; /* version standardisÃƒÆ’Ã‚Â©e */
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+}
+
 body{
   font-family: daysLater;
 }
@@ -29,12 +35,6 @@ nav {
   background-color: rgba(0,0,0,0.4);
 }
 
-
-.carousel {
-  background: url("assets/images/background.jpg");
-  background-size: cover; /* version standardisÃƒÆ’Ã‚Â©e */
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-}
 
 .carousel h4{
   color: #CB3B32;
