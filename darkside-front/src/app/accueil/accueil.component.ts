@@ -14,6 +14,8 @@ export class AccueilComponent implements OnInit {
   ngOnInit() {
     $('.carousel').carousel({fullWidth: true});
     $('.carousel').css('height', ($(window).height() - $('.nav-wrapper').height()) + 'px');
+    $('#mainBanner').css('height', ($(window).height() - $('.nav-wrapper').height()) + 'px');
+
     const wow = new WOW(
       {
         boxClass:     'wow',
